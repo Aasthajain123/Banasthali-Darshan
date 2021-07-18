@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 10, 2020, 11:32:32 PM
+    Author     : Acer
+*/
+.bios_n_biot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.departmenthead{
+    margin-top: 2vw;
+}
+
+.departmentdesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.departmentdesc .detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.departmentdesc .detail p{
+    width: 41vw;
+    margin: 0.5vw;
+    text-align: justify;
+    color: #808080;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+}
+
+.departmentdesc .detail .slides img{
+    width: 54vw;
+    height: 22.5vw;
+    margin: 0.5vw;
+}
+
+.departmentdesc .mapbox{
+    width: 95.5vw;
+    margin: 0;
+    margin-bottom: 2vw;
+    height: 22.5vw;
+    align-self: center;
+}
+
+#bios_n_biot{}
+#chem_eng{}
+#chem{}
+#comp_sc{}
+#comm{}
+#auto{}
+#edu{}
+#jour{}
+#e_n_e{}
+#ersc{}
+#history{}
+#legst{}
+#mathstat{}
+#hmsc{}
+#perart{}
+#pharm{}
+#phyed{}
+#physc{}
+#pol_n_pub{}
+#hinmo{}
+#psych{}
+#socio{}
+#design{}
+#sansk{}
+#econ{}
+#viart{}

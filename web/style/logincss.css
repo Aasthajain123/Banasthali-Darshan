@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+    Created on : Feb 12, 2020, 6:54:24 PM
+    Author     : Acer
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'; 
+
+*{ 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+}
+
+html{ 
+	font-size: 10px; 
+	font-family: 'Montserrat', sans-serif; 
+} 
+
+body{
+    background: url(../images/login2.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+.loginbox{
+    width: 28vw;
+    height: 36vw;
+    background: #000;
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 6.5vw 3vw;
+}
+.avatar{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 2vw;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 3.5vw;
+    color: #ff9;
+    font-size: 1.5vw;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 3.5vw;
+    background: aquamarine ;
+    color: #000;
+    font-size: 1.8vw;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    color: darkgrey; 
+}
+.loginbox a:hover
+{
+    color: #ff9;
+    text-decoration: underline;
+}

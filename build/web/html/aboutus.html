@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../style/homecss.css" rel="stylesheet" type="text/css"/>
+        <link href="../style/aboutcss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+    	<!-- HEADER SECTION --> 
+            <section id="header">
+                <div class="header container">
+                    <div class="navbar">
+                        <div class="brand">
+                            <a href="index.html"><h1>B<span>A</span>NASTHALI  D<span>A</span>RS<span>H</span>AN</h1></a>
+                        </div>
+                        <div class="navlist">
+                            <div class="listing">
+                                <ul>
+                                    <li><a href="booking.jsp">ROOM BOOKING</a></li>
+                                    <li><a href="aboutus.html">ABOUT</a></li>
+                                    <li><a href="contact.html">CONTACT US</a></li>
+                                    <li><a href="profile.jsp">MY PROFILE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END OF HEADER SECTION -->
+        <section id="main">
+           <div class="main container">
+               <div class="row">                   
+                   <div class="column">
+                       <img src="../images/Apajibg.jpg" alt="Nature" style="width:70vw;height:auto;">
+                   </div>
+                    <div class="column">                       
+                        <h1 class="title" style="text-align: center;margin-top: 14%; margin-bottom: 0;text-decoration: underline;font-size: 4vw;">About <span>U</span>s</h1>
+                        <p style="text-align: right; margin-top: 0.5vw;">Banasthali Vidyapith At a Glance...</p>
+                        <div class="internal"> 
+                            <ul>
+                                <li><a href='#history'>History</a></li>
+                                <li><a href="#fivefold">Five Fold Education</a></li>
+                                <li><a href="#vision">Vision and Mission</a></li>
+                                <li><a href="#team">Our Team</a></li>
+
+                            </ul>
+                        </div> 
+                   </div>
+               </div>                
+           </div>
+            
+                
+        </section>
+        <section id="history" style="margin-top: 0%;">
+            
+                <div>
+                 <h1 class="title">
+                    <br><br>HIS<span>T</span>OR<span>Y</span>
+                </h1>
+                    <div style="align-self: center;"> 
+                                        
+                                        <h1 style="text-align: center;"> Pandit Hiralal Shastri,</h1>
+                                        <p style="text-align: center;color: white;padding-left: 10vw;padding-right: 10vw;">the founding father of Banasthali Vidyapith, resigned his prestigious post of Secretary in the Home and Foreign Department in the erstwhile Jaipur State in 1927 and selected the remote village of Banthali as the centre of his life’s work. His plan was to organize a programme of rural reconstruction on the lines laid down by Gandhiji and also to train public workers through constructive service of the people.
+                                            While so engaged in his work Shastriji also wanted to train his promising daughter Shantabai as a social worker dedicated to the cause of women’s upliftment. But destiny ordained otherwise. All of a sudden, after a brief illness of a day, Shantabai bade farewell to Banasthali on 25th April, 1935 at the tender age of only 12 years. The loss seemed irreparable at the moment, but soon the mood of despondency gave way to a new hope. If one Shantabai had departed there were others who could be trained likewise. This idea gave<BR> solace and opened the path of action...
+                                            <span id="dots">...</span><span id="more">To complete the unfinished task of his daughter, the Shri Shantabai Shiksha Kutir was started in October 1935 in the  mud huts provided by the Jiwan Kutir, with about half-a-dozen girls.
+                                                The name ‘Banasthali Vidyapith’ was adopted only in 1943. This also happened to be the year when undergraduate courses were first introduced. The institution was granted the status of a deemed university in 1983 by the UGC. Prof. Sushila Vyas , the first student of Banasthali Vidyapith  was appointed the first Director of Vidyapitties.
+                                                Under the tutelage of the Shastri family, Banasthali Vidyapith has grown .Banasthali Vidyapith has been accredited by National Assessment and Accreditation Council (NAAC) with ‘A++’ Grade </span>
+                         
+                                        
+                                        </p>
+                                        
+                                        <button onclick="myFunction()" id="myBtn" class="go" style="align-self: center;">Read more</button>
+                                        <script>
+                                        function myFunction() {
+                                            var dots = document.getElementById("dots");
+                                            var moreText = document.getElementById("more");
+                                            var btnText = document.getElementById("myBtn");
+
+                                            if (dots.style.display === "none") {
+                                                dots.style.display = "inline";
+                                                btnText.innerHTML = "Read more"; 
+                                                moreText.style.display = "none";
+                                                } else {
+                                                dots.style.display = "none";
+                                                btnText.innerHTML = "Read less"; 
+                                                moreText.style.display = "inline";
+                                                }
+                                         }
+                                        </script>
+					<br/><br/>
+                                        <br><br><br><br>
+		</div> 
+	   		
+            
+            </div>
+            
+        </section>
+        <section id="fivefold">
+                 
+                 <h1 class="title">
+                    <br><br>FIV<span>E</span> FOLD<span> E</span>DUCATION
+                 </h1>
+                 <div class="row">
+                    
+                      <div class="column" onclick="openTab('b1');" style="background:coral;">
+                         PHYSICAL
+                     </div>
+                      <div class="column" onclick="openTab('b2');" style="background:green;">
+                         AESTHETIC
+                     </div>
+                      <div class="column" onclick="openTab('b3');" style="background:greenyellow;">
+                         MORAL
+                     </div>
+                      <div class="column" onclick="openTab('b4');" style="background:reD;">
+                         INTELLECTUAL
+                     </div>
+                      <div class="column" onclick="openTab('b5');" style="background:brown;">
+                         PRACTICAL
+                     </div>
+                 </div>
+                     <div id="b1" class="containerTab" style="display:none;background:coral">
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                            <h2>PHYSICAL</h2>
+                         <p style="color: black;">Under physical education programme, various activities like parade , shooting, riding, flying, girl guiding, bulbul, swimming, yoga and various modern and traditional sports like kabbadi, kho-kho, hockey, basket ball, badminton, long jump, high jump etc . are included.</p>
+                     </div>
+                     <div id="b2" class="containerTab" style="display:none;background:green">
+                         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                            <h2>AESTHETIC</h2>
+                          <p style="color: black;">
+                            Students learn  music and  painting up to class v,. They can choose either music (vocal or instrumental) or painting. Dance education is being provided to  the students  of all levels.
+                          </p>
+                     </div>
+                     <div id="b3" class="containerTab" style="display:none;background:greenyellow">
+                         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                            <h2>MORAL</h2>
+                            <p style="color: black;">
+                               The aim of moral education is to develop personality of the students, so as to cultivate in them the feeling of respect for all religions.
+                            </p>
+                     </div>
+                     <div id="b4" class="containerTab" style="display:none;background:red">
+                           <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                           <h2> INTELLECTUAL</h2>
+                           <p style="color: black;">Intellectual education is being given to the students in order to avoid the relative aspects of modern education. Natural and social sciences with languages and Maths are being taught with sciences from the beginning .</P>
+                     </div>
+                     <div id="b5" class="containerTab" style="display:none;background:brown">
+                           <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                           <h2>PRACTICAL</h2>
+                           <p style="color: black;">
+                               Under practical education sanganary printing & dying, batique, bandhej, tailoring, embroidery, craft, papermache etc. are included.
+                           </P>
+                     </div>
+            <script>
+                function openTab(tabName) {
+                   var i, x;
+                     x = document.getElementsByClassName("containerTab");
+                       for (i = 0; i < x.length; i++) {
+                         x[i].style.display = "none";
+                        }
+                      document.getElementById(tabName).style.display = "block";
+                     }
+            </script>
+        </section>
+        <section id="vision">
+            <br>
+            <h1 class="title">
+                <br><br>VISIO<span>N </span>AND<span> M</span>ISSION
+                 </h1>
+            <div style="width:100%;padding:20px;height:300px;">
+                
+                
+                    <p style="border: 1px solid grey;padding: 12px; width:85%; height:250px;text-align: center;background-color: white;margin-left: 6%;margin-right: 5%">
+                        
+                        
+                        <img src="../images/vision.png" style="float: left; width:300px;hight:300px;margin-left: 7%;margin-right: 5%;">
+                         Banasthali Vidyapith has been conceptualized to materialize the ethos of nation-building and Indian Culture. Since its inception, Banasthali Vidyapith has had  a clear  perspective about  its educational efforts and  has possessed a  vivid picture of the  form and pattern of educational programme  to be adopted.
+                         Vidyapith’s aim of a full and balanced development of students' personality got concrete expression in the form of 'Panchmukhi Shiksha' which evolved out of initial experimentation. 
+            Synthesis of spiritual values and scientific achievements of the East and the West is a key feature of the Vidyapith’s  educational programme. Simple living, self-reliance and khadi wearing are hallmarks of life at Banasthali.
+           
+                    </p> 
+                
+                    
+            </div>
+ 
+            
+                        
+        </section>
+   
+            
+        <!--FOOTER SECTION-->
+        <section id="footer">
+            <div class="footer container">
+            	<div class='contactHandles'>
+                    <a href="http://www.banasthali.org/banasthali/wcms/en/home/"><img src="../images/web.png"/></a>
+                    <a href="https://twitter.com/banasthali_vid?lang=en"><img src="../images/twit.png"/></a>
+                    <a href="https://www.linkedin.com/company/banasthalividyapith"><img src="../images/lin.png"/></a>
+                    <a href="http://www.banasthali.org/banasthali/wcms/en/home/international/continfo.html"><img src="../images/gmail.png"/></a>
+                    <a href="https://www.instagram.com/explore/tags/banasthali/?hl=en"><img src="../images/insta.png"/></a>
+		</div>
+		<div class='footerGreeting'>Thanks</div>				
+		<div class="creatorName">BANASTHALI VIDYAPITH</div>
+		<div class="copyright">&copy Copyright 2020 - 2025</div>
+		<div class="cccc">AllRightsReserved Powered by <i style="color: silver;"><b>Vidyapith</b></i></div>
+		</div>
+	</section>
+        <!-- END OF FOOTER SECTION -->
+            
+   
+</body>
+</html>
+
+
+

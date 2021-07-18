@@ -1,0 +1,258 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2020, 5:53:42 PM
+    Author     : ADMIN
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'; 
+
+
+*{ 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+} 
+
+#main{
+
+    background-size: cover; 
+    background-position: top center; 
+    position: relative; 
+    z-index: 1;
+    background-color: white;
+   
+}
+#main .internal ul{ 
+	list-style: none; 
+	position: initial; 
+	display: block; 
+	height: auto; 
+	width: 47%;; 
+	background-color: yellow;
+	justify-content: center; 
+ 	align-items: center;
+        margin-left: 26vw;
+} 
+
+#main .internal ul a:hover{
+	color:white;
+}
+
+#main .internal a{
+	color:black;
+}
+
+#main .internal li{
+	margin-right: 8px;
+        margin-left: 5vw;
+	font-size: 1.5vw;
+	font-weight: 500; 
+	letter-spacing: .2rem; 
+	line-height: 5vw;
+}
+
+
+#main .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#mukteswari .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#mukteswari .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#mukteswari .column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#mukteswari .go{
+    display: inline-block;
+    padding: 10px 30px;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 5vw;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    margin-left: 10vw;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+
+#mukteswari .go:hover{
+    color: black;
+    background-color: white; 
+}
+#mukteswari .card {
+    background-image: url("../images/bankback.jpg");
+    background-size: 100%;;
+    color: white;
+    background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+#spicy .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#spicy .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#spicy .column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#spicy .card {
+    background-image: url("../images/food.jpg");
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+
+/* Clearfix (clear floats) */
+#main .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#sanus .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#sanus .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#sanus .column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#sanus .card {
+    background-image: url("../images/food5.jpg");
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+#fnf .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#fnf .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#fnf .column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#fnf .card {
+    background-image: url("../images/cof.jpg");
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+#eats .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#eats .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#eats .column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#eats .card {
+    background-image: url("../images/gulab.png");
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+#anap .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#anap .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#anap .column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#anap .card {
+    background-image: url("../images/et.jpg");
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

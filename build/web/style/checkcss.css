@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 May, 2020, 12:47:15 PM
+    Author     : ruchi
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'; 
+*{ 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+} 
+
+#check ,#success{
+    
+ background-color:whitesmoke;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#check::after,#success::after{ 
+	content: ''; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	width: 100%; 
+ 	z-index: -1; 
+}
+
+
+#check .check, #success .success{ 
+	max-width: 1200px; 
+	margin: 0 auto; 
+	padding: 0 50px; 
+	justify-content: flex-start; 
+} 
+.bg-text {
+ 
+  
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size:1vw;
+}
+#content {
+  
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#content td, #content th {
+    font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#content th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#0040FF;
+  color: white;
+}
+.btn{
+     width:100%;
+    padding: 8px 10px;
+    font-size:15px;
+    border:0;
+    background:#0040FF;
+    color:#fff;
+    cursor:pointer;
+    border-radius: 3px;
+    outline: none;
+}

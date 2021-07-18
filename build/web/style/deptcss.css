@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 1, 2020, 12:06:39 AM
+    Author     : Acer
+*/
+
+/*links SECTION*/
+
+#dlist{
+        background: url(../images/teal.jpg);
+        background-size: cover; 
+	background-position: top center; 
+	position: relative; 
+	z-index: 1; 
+}
+
+#dlist .dlist{
+	flex-direction: column;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;         
+}
+
+#dlist .dhead{
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+
+#dlist .dhead h1{
+    font-size: 4vw;
+}
+
+#dlist .dright{
+	width: 90%;
+}
+
+#dlist .dleft{
+	height: 100%; 
+	width: 90%; 
+	position: relative;
+}
+
+#dlist .ddesc{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
+    }
+    
+#dlist .ddesc a{
+    color: yellow;
+    text-decoration: none;
+}
+
+#dlist .ddesc a:hover{
+    color: white;
+    text-decoration: underline ;
+}
+
+#dlist .ddesc h2{
+    margin-bottom: .4vw;
+    font-size: 1.2vw;
+}
+/*END OF links SECTION*/

@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 May, 2020, 5:53:30 PM
+    Author     : ruchi
+*/
+
+#hospital{
+	background-color: white;
+}
+
+#hospital::after{ 
+	content: ''; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	width: 100%; 
+        z-index: -1; 
+}
+
+#hospital .hospital{
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+#content {
+ height:28vw;
+  border-collapse: collapse;
+  margin:auto;
+  width: 50%;
+}
+
+#content td, #content th {
+    font-size: 1.2vw;
+    font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#content tr:nth-child(even){background-color: #f2f2f2;
+color:black;}
+
+#content tr:hover {background-color: #ddd;
+color:black;}
+
+#content th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#0276FD;
+  color: white;
+}

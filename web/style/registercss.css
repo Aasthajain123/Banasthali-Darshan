@@ -1,0 +1,68 @@
+body{
+    background: url(../images/register1.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.registerbox{
+    width: 33vw;
+    height: 48vw;
+    background: #eee;
+    color: #000;
+    top: 30%;
+    left: 25%;
+    position:absolute;
+    transform: translate(-30%,-30%);
+    box-sizing: border-box;
+    padding: 1.8vw 1.8vw;
+    padding-top: 1vw;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 1.5vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.registerbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.4vw;
+    color: black;
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 1.2vw;
+    color: greenyellow;
+}
+
+.registerbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: #e0e0e1;
+    outline: none;
+    padding-left:  0.4vw;
+    height: 3.25vw;
+    color: black;
+    font-size: 1.4vw;
+    font-weight: bold;
+    
+}
+
+.registerbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 4vw;
+    background: gray ;
+    color: #000;
+    font-size: 1.8vw;
+}
+
+.registerbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: blue;
+}

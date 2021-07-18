@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 1, 2020, 3:24:46 AM
+    Author     : Acer
+*/
+
+*{
+    margin: 0;
+}
+
+
+#profile{ 
+	background-image: url(../images/protitl.jpg); 
+	background-size: cover; 
+	background-position: top center; 
+	position: relative; 
+	z-index: 1; 
+} 
+
+#profile::after{ 
+	content: ''; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	width: 100%; 
+	background-color: lightcoral; 
+	opacity: .3; 
+ 	z-index: -1; 
+        overflow: hidden;
+}
+
+#profile .profile{   
+        flex-direction: row;
+        display: flex;
+	justify-content: center;
+        margin-bottom: 0vw;
+} 
+
+#profile .detail{
+    flex-direction: column;
+    max-width:50%;
+    font-size: 1.5vw;
+    margin: 2px;
+    margin-top: 4vw;
+    margin-bottom: 0;
+}
+
+#profile .detail h1{
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+#profile .detail table{
+    margin-top: 1.5vw;
+    border-collapse: collapse;
+    width: 100%;
+    min-height: 50%;
+}
+
+#profile .detail tr{
+    margin-top: 2vw;
+}
+
+#profile .detail th {
+  padding: 8px;
+  text-align: left;
+  color: black;
+  min-width: 40%;
+  min-height: 10%;
+  margin-right: 2vw;
+}
+
+#profile .detail td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: crimson;
+  background-color:whitesmoke;
+  font-weight: 500;
+}
+
+#profile .update{
+    flex-direction: column;
+    font-size: 1.5vw;
+    margin: 2px;
+        margin-top: 4vw;
+    align-items: center; 
+    padding-left: 6vw; 
+    margin-bottom: 0;
+}
+
+#profile .update h1{
+    font-size: 3vw;
+}
+
+#profile .update .btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw 3vw;
+    color: crimson;
+    font-weight: 800;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    justify-content: center;
+}
+
+#profile .update .btn:hover{
+    color: white;
+    background-color: crimson; 
+}
+
+#ppppp .jjj{
+    flex-direction: row;
+    display: flex;
+    justify-content: center; 
+}
+
+#ppppp .jjj .btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;;
+    padding: 1vw 3vw;
+    color: crimson;
+    font-size: 2.5vw;
+    font-weight: 800;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+#ppppp .jjj .btn:hover{
+    
+    color: white;
+    background-color: crimson; 
+}

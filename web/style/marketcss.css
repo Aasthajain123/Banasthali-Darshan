@@ -1,0 +1,285 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2020, 12:49:35 PM
+    Author     : ADMIN
+*/
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'; 
+
+
+*{ 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+} 
+
+html{ 
+	font-size: 10px; 
+	font-family: 'Montserrat', sans-serif; 
+	scroll-behavior: smooth; 
+} 
+
+a{ 
+	text-decoration: none; 
+} 
+
+.container{
+	min-height: 100vh; 
+	width: 100%; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+
+img{
+	height: 100%; 
+	width: 100%; 
+ 	object-fit: cover; 
+}
+
+p{ 
+	color: brown; 
+	font-size: 1.4rem; 
+	margin-top: 5px; 
+	line-height: 2.5rem; 
+	font-weight: 600; 
+	letter-spacing: .05rem; 
+} 
+
+.title{
+	font-size: 4rem;
+	font-weight: 600;
+	color: black;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+
+.title span{
+	color: crimson;
+}
+
+
+/*HEADER SECTION*/
+.brand h1{
+	font-size: 2vw;
+	text-transform: uppercase;
+	color: white;
+}
+
+.brand h1 span{
+	color:crimson;
+}
+
+#header { 
+	position: fixed; 
+	z-index: 1000; 
+	left: 0; 
+	top: 0; 
+	width: 100vw;
+	height: auto; 
+}
+ 
+#header .header { 
+	min-height: 8vh; 
+	background-color: rgba(31, 30, 30, 0.24); 
+	transition: .3s ease background-color; 
+}
+
+#header .navbar { 
+	display: flex; 
+	align-items: center; 
+	justify-content: space-between; 
+	width: 100%; 
+	height: 100%; 
+	max-width: 1200px; 
+	padding: 0 10px;
+} 
+#header .navlist ul { 
+	list-style: none; 
+	position: initial; 
+	display: block; 
+	height: auto; 
+	width: fit-content; 
+	background-color: transparent;
+	display: flex; 
+} 
+#header .nav-list ul li { 
+	display: inline-block; 
+} 
+#header .nav-list ul li a { 
+	font-weight: 500; 
+	letter-spacing: .2rem; 
+	text-decoration: none; 
+	font-size: 1.8rem; 
+	text-transform: uppercase; 
+	padding: 1.25vw; 
+	display: block; 
+
+} 
+#header .navlist ul a:hover{
+	color:crimson;
+}
+
+.listing a{
+	color:white;
+}
+
+.listing li{
+	margin-right: 8px;
+	margin-left: 8px;
+	font-size: 1.5vw;
+}
+/*END OF HEADER SECTION*/
+
+
+/*HOME SECTION*/
+#main .column {
+  float: left;
+  width: 50%;
+  height: 40vw;
+  
+  padding:3px;
+}
+
+/* Remove extra left and right margins, due to padding */
+#main.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+#main.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main{ 
+	background-color: black; 
+	background-size: cover; 
+	background-position: top center; 
+	position: relative; 
+	z-index: 1; 
+} 
+
+#main::after{ 
+	content: ''; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	width: 100%; 
+	background-color: black; 
+	opacity: .5; 
+ 	z-index: -1; 
+}
+#main .glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #xxx, 0 0 20px #fff, 0 0 30px #e60076, 0 0 40px #e60078, 0 0 50px #e60076, 0 0 60px #e60076, 0 0 70px #e60076;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+#main .contactHandles{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	width: inherit;
+	margin-left: 43vw;
+
+        margin-top: 20VW;
+        margin-bottom: 0vw;
+} 
+
+#main .footerGreeting{
+	font-size: 2vw;
+	font-weight: 400;
+	text-align: center;
+	padding: 18px;
+	width: inherit;
+}
+
+
+/* Clear floats after the columns */
+
+#old{ 
+	background-image: url("../images/back1.jpg");
+        background-size: 100vw 1vw;
+	background-size: cover; 
+	background-position: top center; 
+	position: relative; 
+	z-index: 1; 
+} 
+#new{ 
+	background-image: url("../images/back2.jpg");
+        background-size: 100vw 1vw;
+	background-size: cover; 
+	background-position: top center; 
+	position: relative; 
+	z-index: 1; 
+}
+.footer{
+	background-color: black;
+	opacity: .8;
+	position: relative;
+	width: inherit;
+	min-height: 100px;
+	color: grey;
+	z-index: 99;
+	display: flex;
+	flex-direction: column;
+}
+
+#footer .contactHandles{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	width: inherit;
+	margin-left: 20vw;
+	margin-right: 20vw;
+} 
+
+#footer .footerGreeting{
+	font-size: 2vw;
+	font-weight: 400;
+	text-align: center;
+	padding: 18px;
+	width: inherit;
+}
+
+#footer .contactHandles img{
+	margin: 2vw;
+	height: 30px;
+	width: 30px;
+}
+
+.creatorName{
+	text-align: center;
+	font-size: 4vh;
+	padding:2vw;
+	padding-top: 0;
+	font-weight: bold;
+}
+#footer::after{ 
+		content: ''; 
+		position: absolute; 
+		left: 0; 
+		top: 0; 
+		height: 100%; 
+		width: 100%; 
+		background-color: black; 
+		opacity: .6; 
+	 	z-index: -1; 
+	}

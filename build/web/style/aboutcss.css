@@ -1,0 +1,257 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2020, 11:24:38 AM
+    Author     : ADMIN
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'; 
+
+/*HOME SECTION*/
+#main{
+    background-color: white; 
+    background-position: top center; 
+    position: relative; 
+    z-index: 1; 
+}
+#main .container {
+  position: relative;
+  font-family: Arial;
+}
+#main .row{
+    content: "";
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: auto;
+}
+#main .column{
+    float: left;
+    width: auto;
+    padding: 0.1px;  
+    text-align: center;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+}
+#main .textblock {
+    position: fixed;
+    top:0vw;
+    bottom:0vw;
+    right: 0px;
+    background-color:white;
+    opacity: 0.1%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:33vw;
+    height:100vw;
+    -webkit-transition: left 2s;
+    position: fixed; 	
+}
+
+#main .internal{
+	position: relative; 
+	z-index: 2; 
+	padding:2vw;
+	list-style: none; 
+	right: 0;
+	top: 2vw;
+	font-size: 2vw; 
+	letter-spacing: 0.2vw; 
+	background-color: palegoldenrod;
+	width: 25vw;
+	height: auto;
+	display: flex; 
+	flex-direction: column; 	
+        margin: 0;
+        margin-left: 2vw;
+        align-items: center; 
+}
+
+#main .internal ul{ 
+	list-style: none; 
+	position: initial; 
+	display: block; 
+	height: auto; 
+	width: fit-content; 
+	background-color: transparent;
+	justify-content: center; 
+ 	align-items: center; 
+} 
+
+#main .internal ul a:hover{
+	color:crimson;
+}
+
+#main .internal a{
+	color:black;
+}
+
+#main .internal li{
+	margin-right: 8px;
+	margin-left: 8px;
+	font-size: 1.5vw;
+	font-weight: 500; 
+	letter-spacing: .2rem; 
+	line-height: 5vw;
+}
+
+#history{ 
+	background-size: cover; 
+	background-position: top center; 
+	position: relative; 
+	z-index: 1; 
+} 
+
+#history::after{ 
+	content: ''; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	width: 100%; 
+	background-color: black; 
+	opacity: .4; 
+ 	z-index: -1; 
+}
+#more {display: none;}
+
+#history .go{
+    margin-left: 40%;
+    display: inline-block;
+    padding: 10px 30px;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 5vw;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+
+#history .go:hover{
+    color: black;
+    background-color: white; 
+}
+#history{
+	background-image: url("../images/bankback.jpg");
+	background-size: cover; 
+	background-position: top center; 
+	position: relative; 
+	z-index: 1; 
+}
+
+#history::after{ 
+	content: ''; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	width: 100%; 
+	background-color: black; 
+	opacity: .6; 
+ 	z-index: -1; 
+}
+
+#history .trip{
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+#history p{
+	color: white;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 400;
+	letter-spacing: 0.05rem;
+}
+#history .history{
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#fivefold{
+    background-image: url("../images/teamm.jpg");
+    background-size: cover; 
+    background-position: top center; 
+    position: relative; 
+    z-index: 1; 
+}
+#fivefold .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+
+/* Clearfix (clear floats) */
+#fivefold .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#fivefold .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  height:1%;
+  background-color: white;
+}
+
+#fivefold .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#fivefold .container {
+  padding: 2px 16px;
+}
+#fivefold .containerTab {
+  padding: 20px;
+  color: white;
+}
+#fivefold .closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#vision{
+    background-image: url("../images/bankback.jpg");
+    background-size: cover; 
+    background-position: top center; 
+    position: relative; 
+    z-index: 1; 
+}
+#vision .text-block1 {
+    position: absolute;
+    top:100%;
+    bottom:0vw;
+    right: 20px;
+    background-color:white;
+    opacity: 0.1%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100%;
+    height:130%;
+}
